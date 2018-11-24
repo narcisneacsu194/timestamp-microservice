@@ -1,6 +1,8 @@
+require('./config/config.js');
 const express = require('express');
 const moment = require('moment-timezone');
 
+const port = process.env.PORT || 3000;
 const app = express();
 
 app.get('/api/timestamp/:time', (req, res) => {
@@ -40,8 +42,8 @@ app.get('/api/timestamp', (req, res) => {
   res.send(result);
 });
 
-app.listen(3000, () => {
-  console.log('Server started up on port 3000.');
+app.listen(port, () => {
+  console.log(`Server started up on port ${port}.`);
 });
 
 module.exports = { app };
