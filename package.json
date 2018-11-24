@@ -1,0 +1,25 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.23"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "expect": "21.1.0",
+    "mocha": "3.0.2",
+    "supertest": "2.0.0"
+  },
+  "scripts": {
+    "test": "mocha tests/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  }
+}
