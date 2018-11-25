@@ -1,4 +1,4 @@
-# Timestamp microservice
+# Timestamp Microservice
 
 API that lets you input a date with a format like **YYYY-MM-DD**, or as a millisecond timestamp. It will return a json response that contains the same date as a **millisecond** timestamp and in a nice format.
 
