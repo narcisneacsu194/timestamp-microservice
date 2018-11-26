@@ -31,7 +31,6 @@ Keep in mind, that for the first example, if you try to input gibberish text, or
 {
     "error": "Invalid Date"
 }
-
 ```
 
 ## Getting Started
